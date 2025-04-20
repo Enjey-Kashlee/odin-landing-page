@@ -9,7 +9,9 @@ body {
     padding: 15px 0 100px 0;
 }
 
-.header, .hero , .cards{
+.header,
+.hero,
+.cards {
     display: flex;
     width: 1000px;
     margin: 0 auto;
@@ -66,7 +68,7 @@ body {
 
 .header-logo {
     font-size: 24px;
-    color:  #f9faf8;
+    color: #f9faf8;
     font-weight: 800;
 }
 
@@ -158,6 +160,7 @@ li {
     margin: 0;
     color: #f9faf8;
 }
+
 .call-to-action p {
     margin: 0;
     color: #e5e7eb;
