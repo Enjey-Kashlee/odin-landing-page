@@ -1,0 +1,84 @@
+body {
+    font-family: Robot, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header-hero-bg {
+    background-color: #1f2937;
+    padding: 15px 0 100px 0;
+}
+
+.header, .hero {
+    display: flex;
+    width: 1100px;
+    margin: 0 auto;
+}
+
+.hero {
+    gap: 45px;
+}
+
+.header {
+    justify-content: space-between;
+    padding-bottom: 70px;
+}
+
+.hero-left {
+    flex: 1;
+}
+
+.hero-left h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    margin: 0;
+}
+
+.hero-left button {
+    background-color: #3882f6;
+    color: #f9faf8;
+    font-weight: 800;
+    padding: 8px 25px;
+    border-radius: 8px;
+    border: none;
+}
+
+.hero-left p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.hero-right {
+    flex: 1;
+    display: flex;
+    padding: auto;
+    background-color: #a0a0a0;
+}
+
+.hero-right-text {
+    margin: auto;
+    width: max-content;
+    color: #f9faf8;
+}
+
+.header-logo {
+    font-size: 24px;
+    color:  #f9faf8;
+    font-weight: 800;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+li {
+    font-size: 18px;
+    color: #e5e7eb;
+}
